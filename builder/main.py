@@ -15,9 +15,9 @@ from util.writeconfig import WriteConfig
 
 def main():
     stars = requests.get(
-        f"https://api.github.com/repos/addi00000/empyrean").json()["stargazers_count"]
+        f"https://api.github.com/repos/xannbtw/benzz").json()["stargazers_count"]
     forks = requests.get(
-        f"https://api.github.com/repos/addi00000/empyrean").json()["forks_count"]
+        f"https://api.github.com/repos/xannbtw/benzz").json()["forks_count"]
 
     logging.basicConfig(
         level="NOTSET",
